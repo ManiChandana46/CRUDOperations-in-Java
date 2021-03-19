@@ -1,0 +1,18 @@
+2021-03-01 13:59:47 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'Eggs(Dozen)' (G_PRODUCT: ""PRICE"" INTEGER NOT NULL)"; SQL statement:
+insert into g_product  values(HIBERNATE_SEQUENCE.NEXTVAL,'https://images.unsplash.com/photo-1587486913049-53fc88980cfc?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8ZWdnc3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80','Eggs(Dozen)',40) [22018-200]
+2021-03-01 14:01:39 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DESC[*] G_PRODUCT"; expected "DELETE, DROP, DECLARE, DEALLOCATE"; SQL statement:
+desc g_product [42001-200]
+2021-03-01 14:02:07 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'Eggs(Dozen)' (G_PRODUCT: ""PRICE"" INTEGER NOT NULL)"; SQL statement:
+insert into g_product  values(HIBERNATE_SEQUENCE.NEXTVAL,'https://images.unsplash.com/photo-1587486913049-53fc88980cfc?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8ZWdnc3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80','Eggs(Dozen)',40) [22018-200]
+2021-03-01 14:13:50 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'HIBERNATE_SEQUENCE.NEXTVAL' (GROCERY_PRODUCT: ""INDEX"" INTEGER NOT NULL)"; SQL statement:
+insert into grocery_product values ('HIBERNATE_SEQUENCE.NEXTVAL','Tide Plus',70,'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpUnw9rAXoXN36pEdW7LyH8iJp1rdk05IHpg&usqp=CAU') [22018-200]
+2021-03-01 14:14:12 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'HIBERNATE_SEQUENCE.NEXTVAL' (GROCERY_PRODUCT: ""INDEX"" INTEGER NOT NULL)"; SQL statement:
+insert into grocery_product values ('HIBERNATE_SEQUENCE.NEXTVAL','Tide Plus',70,'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpUnw9rAXoXN36pEdW7LyH8iJp1rdk05IHpg&usqp=CAU') [22018-200]
+2021-03-01 14:14:38 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'HIBERNATE_SEQUENCE.NEXTVAL' (GROCERY_PRODUCT: ""INDEX"" INTEGER NOT NULL)"; SQL statement:
+insert into grocery_product values ('HIBERNATE_SEQUENCE.NEXTVAL','Tide Plus',70,'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpUnw9rAXoXN36pEdW7LyH8iJp1rdk05IHpg&usqp=CAU') [22018-200]
