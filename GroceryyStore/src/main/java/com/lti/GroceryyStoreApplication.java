@@ -2,9 +2,10 @@ package com.lti;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 @SpringBootApplication
-public class GroceryyStoreApplication {
+public class GroceryyStoreApplication extends springbootservletinitializer {
 
 	public static void main(String[] args) {
 		SpringApplication.run(GroceryyStoreApplication.class, args);
