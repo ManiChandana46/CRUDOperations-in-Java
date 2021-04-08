@@ -28,8 +28,8 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 			<exclusions>
                 		<exclusion>
-				    <groupid>org.springframework.boot</groupid>
-				    <artifactid>spring-boot-starter-tomcat</artifactid>
+				    <groupId>org.springframework.boot</groupId>
+				    <artifactId>spring-boot-starter-tomcat</artifactId>
                 		</exclusion>
             		</exclusions>
 		</dependency>
